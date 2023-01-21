@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -35,4 +37,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  background-color: #F55A5A;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  width: 550px;
+  height: 55px;
+  margin: 0 auto;
+  padding: 0.5em 1em;
+
+}
+
+.card--image {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  margin: 0 auto;
+  padding: 1em 0em;
+  align-items: center;
+  justify-content: center;
+  max-width: 550px;
+}
+
+.main--content {
+  text-align: left;
+  margin-left: 1em;
+}
+
+.main--content > p {
+  max-width: 400px;
+  margin: 1em auto;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.main--content > h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.main--content > h4, .main--content > a, .place--country {
+  margin: 0;
+}
+
+.title--country {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 0.5em;
+  font-size: 11px;
+}
+
+.title--country > h4 {
+  letter-spacing: 2px;
+  margin: 0.5em;
+}
+
+.dates {
+  padding-top: 1em;
+}
+
+.title--country > a {
+  color: #918E9B;
+}
+
+main:not(:last-child) {
+  border-bottom: 1px solid #F5F5F5;
+  margin: 0 auto;
+
 }
